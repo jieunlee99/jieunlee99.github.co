@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+      #txt_welcome {
+        text-align: center;
+        margin-bottom: 50px;
+      }
+
+      .project {
+        text-align: center;
+      }
+
+      .project_img {
+        width: 300px;
+        height: 300px;
+      }
+
+      .project_button {
+        font-size: 20px;
+        width: 170px;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>jieunlee99 GitHub</h1>
+    <div id="txt_welcome">제 프로젝트들을 소개합니다.<br /></div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr">
+      <div class="project">
+        <img class="project_img" src="./img/tennisMarket.png" />
+        <input
+          class="project_button"
+          type="button"
+          value="Tennis Market"
+          onclick="location.href='https://github.com/jieunlee99/TennisMarket'"
+        />
+      </div>
+    </div>
+  </body>
+</html>
